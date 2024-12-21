@@ -32,12 +32,12 @@ This repository contains implementations of various machine learning models with
 ## How to Use
 1. Clone the repository:
 -    'git clone git@github.com:uttkarshTewari2006/Machine-learning-models-without-sklearn.git'
-3. import the module
+2. import the module
 -    ex: 'from knn import Knn'
-4. initilize the model
+3. initilize the model
 -    ex: 'classifier = Knn(distance = "L2", type = "voting")'
-5. fit the model
--    ex: 'classifier.fit(numpy_feature_array_train, numpy_label_array_train)'
-6. predict the model
--    ex: 'classifier.predict(numpy_feature_aray_test)'
-7. check evaluation metrics and tune hyperparameters
+4. fit the model
+-    ex: 'classifier.fit(X_train, Y_train)'
+5. predict the model
+-    ex: 'Y_pred = classifier.predict(X_test)'
+6. check evaluation metrics and tune hyperparameters
