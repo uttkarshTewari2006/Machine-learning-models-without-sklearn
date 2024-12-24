@@ -12,12 +12,12 @@ This repository contains implementations of various machine learning models with
 ### Logistic Regression
 - **Hyperparameters**: Learning rate, number of iterations
 - **Description**: Same implementation as linear regression, except uses the sigmoid function and thresholding at 0.5 to binary classify data.
-- **Testing**: Tested with the breast cancer Sklearn dataset, achieved accuracy of 0.98.
+- **Testing**: Achieved 98% accuracy with sklearn breast cancer dataset
 
 ### K-Nearest Neighbors (KNN)
 - **Hyperparameters**: Distance type, voting metric
 - **Description**: Stores data in the fit phase, finds `N` closest values (using either L1 or L2 distance type) and votes for the classified output (using either weighted average or simple voting).
-- **Testing**: Currently testing this model.
+- **Testing**: achieved 95.93% accuracy with breast cancer dataset
 
 ### Decision Tree Classifier
 - **Hyperparameters**: Information gain type, max depth, min samples split, min samples leaf, max features
@@ -27,7 +27,7 @@ This repository contains implementations of various machine learning models with
 ### Random Forest Classifier
 - **Hyperparameters**: Number of estimators, max depth, min samples split, min samples leaf, max features
 - **Description**: Combines multiple decision trees to improve accuracy and control overfitting.
-- **Testing**: Currently working on this model.
+- **Testing**: Achieved 93.8% accuracy with Breast cancer dataset
 
 ## How to Use
 1. Clone the repository:
